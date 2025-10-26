@@ -4,10 +4,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "prisma migrate deploy && node server.js",
+    "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "npm install",
-    "postinstall": "prisma generate"
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +16,7 @@
     "@clerk/clerk-sdk-node": "^4.13.23",
     "@clerk/express": "^1.7.31",
     "@google/genai": "^1.19.0",
-    "@prisma/client": "^6.15.0",
+    "@prisma/client": "^6.18.0",
     "axe-core": "^4.10.3",
     "axios": "^1.12.0",
     "body-parser": "^2.2.0",
@@ -33,6 +32,6 @@
   "devDependencies": {
     "concurrently": "^9.2.0",
     "nodemon": "^3.1.10",
-    "prisma": "^6.16.1"
+    "prisma": "^6.18.0"
   }
 }

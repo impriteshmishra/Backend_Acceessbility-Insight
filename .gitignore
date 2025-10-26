@@ -25,3 +25,5 @@ essential.txt
 *.sln
 *.sw?
 /generated/prisma
+
+/lib/generated/prisma

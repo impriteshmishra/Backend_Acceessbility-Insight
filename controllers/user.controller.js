@@ -3,6 +3,8 @@ import { createUserService, deleteUserService, getUserService } from '../service
 
 // store user
 export const createUser = async (clerkUser) => {
+    console.log(clerkUser);
+    
     try {
         const user = await createUserService(clerkUser);
         console.log("from createUser", user);

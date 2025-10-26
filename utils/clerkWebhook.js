@@ -3,7 +3,7 @@ import { createUser, deleteUser } from "../controllers/user.controller.js";
 import {clerkClient} from '@clerk/clerk-sdk-node';
 
 export const clerkWebhook = async (req, res) => {
-    // console.log("webhook received now");
+    console.log("webhook received now");
 
     try {
         
